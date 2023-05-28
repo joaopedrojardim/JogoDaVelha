@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    background: rgb(60,156,222);
+    background: linear-gradient(85deg, rgba(60,156,222,1) 0%, rgba(24,227,191,1) 100%);
+    min-height: 100vh;
+}
+
+button{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.jogador{
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.jogo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.casa{
+    display: flex;
+    background-color: rgb(21, 100, 247);
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 5px;
+    font-family: 'Courier Prime', monospace;
+    cursor: pointer;
+}
+
+
+.novoJogo{
+    margin: 20px auto;
+    padding: 8px 18px ;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.pontos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+}
+
+.buttonResetar{
+    margin: 30px auto;
+    color: rgb(60,156,222);
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 15px; 
+    text-transform: capitalize;   
+}
+
